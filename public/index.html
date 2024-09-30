@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHelper - Chatbot</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    
+    <div class="body">
+        <div class="video">
+        <video autoplay loop muted class="background" >
+            <source src="./vid.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="main">
+
+        <div class="back">
+                <div class="about-section">
+                  <h1>About Us</h1>
+                  <p><strong>Welcome to CHelper!</strong></p>
+                  <p>
+                    We are an AI-powered platform created to offer mental health and emotional support to students like you. Our mission is to provide a safe, non-judgmental space where you can share your thoughts and feelings, find helpful resources, and explore ways to manage stress and emotional challenges.
+                  </p>
+                  
+                  <h2>What We Offer:</h2>
+                  <ul>
+                    <li><strong>A Listening Ear:</strong> We are here to listen to what's on your mind—whether it’s something personal or school-related, we are always ready to hear you out.</li>
+                    <li><strong>Information & Resources:</strong> We provide information on various mental health topics, coping mechanisms, and offer resources like hotlines and online support groups.</li>
+                    <li><strong>Practical Tips & Strategies:</strong> From stress management to building healthy coping mechanisms, we offer practical advice to help you manage your emotional well-being.</li>
+                    <li><strong>Encouragement for Self-Care:</strong> We remind you of the importance of taking care of yourself and guide you toward integrating self-care routines into your daily life.</li>
+                  </ul>
+              </div>
+        </div>
+
+        <div id="chat-container">
+            <div id="chatbox">
+                <div id="messages"></div>
+            </div>
+            <form id="chat-form">
+                <input type="text" id="user-input" placeholder="Type a message..." autocomplete="off" required>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+    <script src="/client.js"></script>
+</body>
+
+</html>
