@@ -1,6 +1,7 @@
 # studentchatbot
 This is an AI chatbot designed to provide mental health and emotional support to students
 
+note that you need to add .env file with your Gemini API key 
 
 npm install
 Install dependencies: npm install express body-parser @google/generative-ai dotenv
